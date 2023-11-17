@@ -7,3 +7,6 @@ export interface createProductDto extends Omit < Product, 'id' | 'createdAt' | '
 // En el momento de creación no se encesita el objeto, si no el id
 
 type example = Pick <Product, 'color' | 'description' >
+
+
+
